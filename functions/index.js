@@ -17,7 +17,7 @@ const http = require('http');
 const functions = require('firebase-functions');
 
 const host = 'api.worldweatheronline.com';
-const wwoApiKey = '<ENTER_WWO_API_KEY_HERE>';
+const wwoApiKey = '<179bf13d66bc4d519e8101612182804>';
 
 exports.dialogflowFirebaseFulfillment = functions.https.onRequest((req, res) => {
   // Get the city and date from the request
